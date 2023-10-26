@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE7AF70A2AE97119003BBF48 /* Peter_Minwegen_Fetch_RewardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF7092AE97119003BBF48 /* Peter_Minwegen_Fetch_RewardsApp.swift */; };
+		FE7AF70E2AE97119003BBF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE7AF70D2AE97119003BBF48 /* Assets.xcassets */; };
+		FE7AF7182AE97142003BBF48 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF7172AE97142003BBF48 /* Meal.swift */; };
+		FE7AF71A2AE97199003BBF48 /* MealsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF7192AE97199003BBF48 /* MealsViewModel.swift */; };
+		FE7AF71C2AE971AC003BBF48 /* MealsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF71B2AE971AC003BBF48 /* MealsView.swift */; };
+		FE7AF7382AE9D061003BBF48 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF7372AE9D061003BBF48 /* Helper.swift */; };
+		FE7AF73A2AE9D179003BBF48 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF7392AE9D179003BBF48 /* Colors.swift */; };
+		FE7AF73C2AE9D8FE003BBF48 /* Mitr-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE7AF73B2AE9D8FE003BBF48 /* Mitr-Regular.ttf */; };
+		FE7AF73F2AE9E3BD003BBF48 /* MealDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF73E2AE9E3BD003BBF48 /* MealDetail.swift */; };
+		FE7AF7432AE9E43B003BBF48 /* MealDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF7422AE9E43B003BBF48 /* MealDetailViewModel.swift */; };
+		FE7AF7462AE9E4F1003BBF48 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE7AF7452AE9E4F1003BBF48 /* MealDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE7AF7062AE97119003BBF48 /* Peter_Minwegen_Fetch_Rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peter_Minwegen_Fetch_Rewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE7AF7092AE97119003BBF48 /* Peter_Minwegen_Fetch_RewardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter_Minwegen_Fetch_RewardsApp.swift; sourceTree = "<group>"; };
+		FE7AF70D2AE97119003BBF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE7AF7172AE97142003BBF48 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		FE7AF7192AE97199003BBF48 /* MealsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsViewModel.swift; sourceTree = "<group>"; };
+		FE7AF71B2AE971AC003BBF48 /* MealsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsView.swift; sourceTree = "<group>"; };
+		FE7AF7372AE9D061003BBF48 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		FE7AF7392AE9D179003BBF48 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		FE7AF73B2AE9D8FE003BBF48 /* Mitr-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Mitr-Regular.ttf"; sourceTree = "<group>"; };
+		FE7AF73D2AE9D9DC003BBF48 /* Peter-Minwegen-Fetch-Rewards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Peter-Minwegen-Fetch-Rewards-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FE7AF73E2AE9E3BD003BBF48 /* MealDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetail.swift; sourceTree = "<group>"; };
+		FE7AF7422AE9E43B003BBF48 /* MealDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailViewModel.swift; sourceTree = "<group>"; };
+		FE7AF7452AE9E4F1003BBF48 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE7AF7032AE97119003BBF48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE7AF6FD2AE97119003BBF48 = {
+			isa = PBXGroup;
+			children = (
+				FE7AF73B2AE9D8FE003BBF48 /* Mitr-Regular.ttf */,
+				FE7AF7082AE97119003BBF48 /* Peter_Minwegen_Fetch_Rewards */,
+				FE7AF7072AE97119003BBF48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE7AF7072AE97119003BBF48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE7AF7062AE97119003BBF48 /* Peter_Minwegen_Fetch_Rewards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE7AF7082AE97119003BBF48 /* Peter_Minwegen_Fetch_Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				FE7AF73D2AE9D9DC003BBF48 /* Peter-Minwegen-Fetch-Rewards-Info.plist */,
+				FE7AF7092AE97119003BBF48 /* Peter_Minwegen_Fetch_RewardsApp.swift */,
+				FE7AF7412AE9E3EA003BBF48 /* Models */,
+				FE7AF7472AE9E519003BBF48 /* Views */,
+				FE7AF7442AE9E479003BBF48 /* ViewModels */,
+				FE7AF7482AE9E541003BBF48 /* Misc */,
+				FE7AF70D2AE97119003BBF48 /* Assets.xcassets */,
+			);
+			path = Peter_Minwegen_Fetch_Rewards;
+			sourceTree = "<group>";
+		};
+		FE7AF7412AE9E3EA003BBF48 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE7AF7172AE97142003BBF48 /* Meal.swift */,
+				FE7AF73E2AE9E3BD003BBF48 /* MealDetail.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE7AF7442AE9E479003BBF48 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FE7AF7192AE97199003BBF48 /* MealsViewModel.swift */,
+				FE7AF7422AE9E43B003BBF48 /* MealDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FE7AF7472AE9E519003BBF48 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE7AF71B2AE971AC003BBF48 /* MealsView.swift */,
+				FE7AF7452AE9E4F1003BBF48 /* MealDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE7AF7482AE9E541003BBF48 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				FE7AF7372AE9D061003BBF48 /* Helper.swift */,
+				FE7AF7392AE9D179003BBF48 /* Colors.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE7AF7052AE97119003BBF48 /* Peter_Minwegen_Fetch_Rewards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE7AF7142AE97119003BBF48 /* Build configuration list for PBXNativeTarget "Peter_Minwegen_Fetch_Rewards" */;
+			buildPhases = (
+				FE7AF7022AE97119003BBF48 /* Sources */,
+				FE7AF7032AE97119003BBF48 /* Frameworks */,
+				FE7AF7042AE97119003BBF48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Peter_Minwegen_Fetch_Rewards;
+			productName = Peter_Minwegen_Fetch_Rewards;
+			productReference = FE7AF7062AE97119003BBF48 /* Peter_Minwegen_Fetch_Rewards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE7AF6FE2AE97119003BBF48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FE7AF7052AE97119003BBF48 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FE7AF7012AE97119003BBF48 /* Build configuration list for PBXProject "Peter_Minwegen_Fetch_Rewards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE7AF6FD2AE97119003BBF48;
+			productRefGroup = FE7AF7072AE97119003BBF48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE7AF7052AE97119003BBF48 /* Peter_Minwegen_Fetch_Rewards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE7AF7042AE97119003BBF48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7AF73C2AE9D8FE003BBF48 /* Mitr-Regular.ttf in Resources */,
+				FE7AF70E2AE97119003BBF48 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE7AF7022AE97119003BBF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE7AF71A2AE97199003BBF48 /* MealsViewModel.swift in Sources */,
+				FE7AF71C2AE971AC003BBF48 /* MealsView.swift in Sources */,
+				FE7AF73A2AE9D179003BBF48 /* Colors.swift in Sources */,
+				FE7AF7182AE97142003BBF48 /* Meal.swift in Sources */,
+				FE7AF73F2AE9E3BD003BBF48 /* MealDetail.swift in Sources */,
+				FE7AF70A2AE97119003BBF48 /* Peter_Minwegen_Fetch_RewardsApp.swift in Sources */,
+				FE7AF7432AE9E43B003BBF48 /* MealDetailViewModel.swift in Sources */,
+				FE7AF7462AE9E4F1003BBF48 /* MealDetailView.swift in Sources */,
+				FE7AF7382AE9D061003BBF48 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FE7AF7122AE97119003BBF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE7AF7132AE97119003BBF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE7AF7152AE97119003BBF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4ZLTUCHU4U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Peter-Minwegen-Fetch-Rewards-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peter-Minwegen.Peter-Minwegen-Fetch-Rewards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE7AF7162AE97119003BBF48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4ZLTUCHU4U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Peter-Minwegen-Fetch-Rewards-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Peter-Minwegen.Peter-Minwegen-Fetch-Rewards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE7AF7012AE97119003BBF48 /* Build configuration list for PBXProject "Peter_Minwegen_Fetch_Rewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7AF7122AE97119003BBF48 /* Debug */,
+				FE7AF7132AE97119003BBF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE7AF7142AE97119003BBF48 /* Build configuration list for PBXNativeTarget "Peter_Minwegen_Fetch_Rewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7AF7152AE97119003BBF48 /* Debug */,
+				FE7AF7162AE97119003BBF48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE7AF6FE2AE97119003BBF48 /* Project object */;
+}
